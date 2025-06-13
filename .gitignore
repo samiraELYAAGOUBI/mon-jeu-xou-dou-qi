@@ -1,37 +1,20 @@
-# Fichiers compilés Java
+# Éditez le fichier pour qu'il contienne ceci exactement :
+echo "# Fichiers compilés
+target/
 *.class
 *.jar
-*.war
-*.ear
 
-# Dossiers de build
-target/
-bin/
-build/
-out/
-.gradle/
-
-# Fichiers d'IDE et d'éditeurs
+# Fichiers d'IDE
 .settings/
 .project
 .classpath
 *.iml
 .idea/
-.vscode/
-*.swp
-*.swo
 
-# Fichiers de base de données
+# Base de données
 *.db
 *.mv.db
-*.trace.db
 
 # Fichiers système
 .DS_Store
-Thumbs.db
-*.log
-*.tmp
-
-# Fichiers Maven spécifiques
-dependency-reduced-pom.xml
-pom.xml.versionsBackup
+Thumbs.db" > .gitignore
